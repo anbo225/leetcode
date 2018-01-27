@@ -149,7 +149,6 @@ class TableInform:
                             folder_url = os.path.join(folder_url, file)
                             folder_url = os.path.join(Config.github_leetcode_url, folder_url)
                             # print(folder_url)
-
                             self.table_item[folder[:3]].python = '[Python]({})'.format(folder_url)
                         elif file.endswith('.cpp'):
                             complete_info.solved['c++'] += 1
@@ -160,12 +159,13 @@ class TableInform:
                             self.table_item[folder[:3]].c_plus_plus = '[C++]({})'.format(folder_url)
 
         if len(newly_solved_problem) > 0:
-            daily_message = '{} 完成了:\n\n'.format( time.strftime("%Y-%m-%d") )
+            daily_message = '### {} 完成了:\n\n'.format( time.strftime("%Y-%m-%d") )
             for id in newly_solved_problem:
                 tmp = '[{}]({})\n\n'.format(self.table_item[id].id_ +" " +  self.table_item[id].title , self.table_item[id].url)
                 daily_message = daily_message + tmp
         else:
-            daily_message = '{} 未刷leetcode\n\n'.format( time.strftime("%Y-%m-%d") )
+            daily_message = '### {} 未刷leetcode\n\n'.format( time.strftime("%Y-%m-%d") )
+        daily_message += '\n----------------\n'
         readme = Readme(complete_info.total,
                         complete_info.complete_num,
                         complete_info.lock,
@@ -239,8 +239,9 @@ class Readme:
 
         with open(file_path, 'w') as f:
             f.write(self.msg)
-            f.writelines(lines)
             f.write('\n----------------\n')
+            f.writelines(lines)
+
 
         with open(file_path, 'a') as f:
             f.write('## LeetCode Solution Table\n')
@@ -265,7 +266,7 @@ class Readme:
                     'c++': item.c_plus_plus if item.c_plus_plus else 'To Do',
 
                 }
-                line = '|{id}|{title}|{difficulty}||{python}|{c++}|\n'.format(**data)
+                line = '|{id}|{title}|{difficulty}|{python}|{c++}|\n'.format(**data)
                 f.write(line)
             print('README.md was created.....')
 

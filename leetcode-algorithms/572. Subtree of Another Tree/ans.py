@@ -1,4 +1,5 @@
 ### 2018-01-27 solved ###
+
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
