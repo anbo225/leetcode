@@ -1,5 +1,5 @@
 # Keep thinking, keep alive
-Until 2018-01-28 22:02:43, I have solved **10** / **690** problems while **126** are still locked.
+Until 2018-01-30 11:02:18, I have solved **13** / **690** problems while **131** are still locked.
 
 Note: :lock: means you need to buy a book from LeetCode
 
@@ -16,6 +16,7 @@ Note: :lock: means you need to buy a book from LeetCode
 
 
 ----------------
+
 ### 2018-01-28 完成了:
 
 [139 Word Break](https://leetcode.com/problems/word-break/description/)
@@ -29,6 +30,16 @@ Note: :lock: means you need to buy a book from LeetCode
 [756 Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/description/)
 
 [763 Partition Labels](https://leetcode.com/problems/partition-labels/description/)
+
+
+----------------
+### 2018-01-30 完成了:
+
+[125 Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
+
+[131 Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)
+
+[140 Word Break II](https://leetcode.com/problems/word-break-ii/description/)
 
 
 ----------------
@@ -159,13 +170,13 @@ Note: :lock: means you need to buy a book from LeetCode
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |Easy|To Do|To Do|
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) |Hard|To Do|To Do|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) |Hard|To Do|To Do|
-|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) |Easy|To Do|To Do|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) |Easy|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/125.%20Valid%20Palindrome/ans.py)|To Do|
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/) |Hard|To Do|To Do|
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/description/) |Medium|To Do|To Do|
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) |Hard|To Do|To Do|
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/) |Medium|To Do|To Do|
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) |Medium|To Do|To Do|
-|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) |Medium|To Do|To Do|
+|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/131.%20Palindrome%20Partitioning/ans.py)|To Do|
 |132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/description/) |Hard|To Do|To Do|
 |133|[Clone Graph](https://leetcode.com/problems/clone-graph/description/) |Medium|To Do|To Do|
 |134|[Gas Station](https://leetcode.com/problems/gas-station/description/) |Medium|To Do|To Do|
@@ -174,7 +185,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |137|[Single Number II](https://leetcode.com/problems/single-number-ii/description/) |Medium|To Do|To Do|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) |Medium|To Do|To Do|
 |139|[Word Break](https://leetcode.com/problems/word-break/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/139.%20Word%20Break/ans.py)|To Do|
-|140|[Word Break II](https://leetcode.com/problems/word-break-ii/description/) |Hard|To Do|To Do|
+|140|[Word Break II](https://leetcode.com/problems/word-break-ii/description/) |Hard|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/140.%20Word%20Break%20II/ans.py)|To Do|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) |Easy|To Do|To Do|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) |Medium|To Do|To Do|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/description/) |Medium|To Do|To Do|
@@ -704,12 +715,12 @@ Note: :lock: means you need to buy a book from LeetCode
 |752|[Open the Lock](https://leetcode.com/problems/open-the-lock/description/) |Medium|To Do|To Do|
 |753|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/description/) |Hard|To Do|To Do|
 |754|[Reach a Number](https://leetcode.com/problems/reach-a-number/description/) |Medium|To Do|To Do|
-|755|[Pour Water](https://leetcode.com/problems/pour-water/description/) |Medium|To Do|To Do|
+|755|[Pour Water](https://leetcode.com/problems/pour-water/description/) :lock:|Medium|To Do|To Do|
 |756|[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/756.%20Pyramid%20Transition%20Matrix/ans.py)|To Do|
 |757|[Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/description/) |Hard|To Do|To Do|
 |758|[Bold Words in String](https://leetcode.com/problems/bold-words-in-string/description/) :lock:|Easy|To Do|To Do|
-|759|[Employee Free Time](https://leetcode.com/problems/employee-free-time/description/) |Hard|To Do|To Do|
-|760|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/description/) |Easy|To Do|To Do|
+|759|[Employee Free Time](https://leetcode.com/problems/employee-free-time/description/) :lock:|Hard|To Do|To Do|
+|760|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/description/) :lock:|Easy|To Do|To Do|
 |761|[Special Binary String](https://leetcode.com/problems/special-binary-string/description/) |Hard|To Do|To Do|
 |762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/description/) |Easy|To Do|To Do|
 |763|[Partition Labels](https://leetcode.com/problems/partition-labels/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/763.%20Partition%20Labels/ans.py)|To Do|
@@ -721,7 +732,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |769|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/description/) |Medium|To Do|To Do|
 |770|[Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv/description/) |Hard|To Do|To Do|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/) |Easy|To Do|To Do|
-|772|[Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/) |Hard|To Do|To Do|
+|772|[Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/) :lock:|Hard|To Do|To Do|
 |773|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/) |Hard|To Do|To Do|
-|774|[Minimize Max Distance to Gas Station](https://leetcode.com/problems/minimize-max-distance-to-gas-station/description/) |Hard|To Do|To Do|
+|774|[Minimize Max Distance to Gas Station](https://leetcode.com/problems/minimize-max-distance-to-gas-station/description/) :lock:|Hard|To Do|To Do|
 |775|[Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/description/) |Medium|To Do|To Do|

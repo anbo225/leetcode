@@ -4,6 +4,7 @@ import requests
 import os
 import json
 import time
+import sqlite3
 
 
 class Config:
@@ -272,6 +273,11 @@ class Readme:
 
 
 
+
 if __name__ == "__main__":
     table = TableInform()
     table.update_table('leetcode')
+
+    # ToDo :
+    # 1.抽出一个flag函数，来标记每天完成的oj
+    # 2.抽出一个update函数，用来更新readme
