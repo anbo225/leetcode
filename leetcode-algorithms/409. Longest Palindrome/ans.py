@@ -1,3 +1,4 @@
+### 2018-01-31 solved ###
 class Solution(object):
     def longestPalindrome(self, s):
         """
