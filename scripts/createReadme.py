@@ -142,10 +142,11 @@ def generate_readme():
                  f.write( '### {} 未刷leetcode\n\n'.format( datetime.strftime(daily.date, "%Y-%m-%d") ) )
              else:
                  f.write('### {} 完成了:\n\n'.format(datetime.strftime(daily.date, "%Y-%m-%d")))
+                 f.write('| ID | Title | Difficulty |  Python Solution |\n')
+                 f.write('|:---:' * 4 + '|\n')
 
              for question in daily.questions:
-                 f.write( '| ID | Title | Difficulty |  Python Solution |\n')
-                 f.write('|:---:' * 4 + '|\n')
+
                  if question.lock:
                      _lock = ':lock:'
                  else:
@@ -159,7 +160,8 @@ def generate_readme():
                  }
                  line = '|{id}|{title}|{difficulty}|{python}|\n'.format(**data)
                  f.write(line)
-                 f.write('\n----------------\n')
+
+             f.write('\n----------------\n')
 
 
 if __name__ == "__main__":
