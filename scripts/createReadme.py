@@ -139,7 +139,7 @@ def generate_readme():
      file_path = Config.local_path + '/README.md'
      with open(file_path, 'w') as f:
          f.write(" ## 总计：\n ")
-         f.write(" ![](../test.png) ")
+         f.write(" ![](https://raw.githubusercontent.com/anbo225/leetcode/master/test.png) ")
          f.write('\n----------------\n')
          for daily  in  session.query(Daily).order_by(Daily.date).all():
              if len(daily.questions) == 0:
@@ -176,8 +176,8 @@ def generate_pic():
     plt.plot(x,y,'go--')
     plt.rcParams['font.sans-serif'] = ['SimHei']
     plt.xlabel("日期")
-    plt.ylabel("完成题目数")
-    plt.title("每天题目统计")
+    plt.ylabel("题目数")
+    plt.title("每天完成题目数统计")
     plt.savefig("../test.png")
 
 
