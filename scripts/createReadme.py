@@ -12,6 +12,7 @@ from scripts.database import Question,Daily,session
 
 from sqlalchemy.orm.exc import NoResultFound
 
+import matplotlib.pyplot as plt
 
 
 
@@ -133,10 +134,13 @@ def record_daily_work():
 
 
 def generate_readme():
-
+     #生成统计图片
+     generate_pic()
      file_path = Config.local_path + '/README.md'
      with open(file_path, 'w') as f:
-
+         f.write(" ## 总计：\n ")
+         f.write(" ![](../test.png) ")
+         f.write('\n----------------\n')
          for daily  in  session.query(Daily).order_by(Daily.date).all():
              if len(daily.questions) == 0:
                  f.write( '### {} 未刷leetcode\n\n'.format( datetime.strftime(daily.date, "%Y-%m-%d") ) )
@@ -163,6 +167,19 @@ def generate_readme():
 
              f.write('\n----------------\n')
 
+def generate_pic():
+    x = []
+    y = []
+    for daily in session.query(Daily).order_by(Daily.date).all():
+        x.append('{}'.format(daily.date,"%Y-%m-d"))
+        y.append(len(daily.questions))
+    plt.plot(x,y,'go--')
+    plt.rcParams['font.sans-serif'] = ['SimHei']
+    plt.xlabel("日期")
+    plt.ylabel("完成题目数")
+    plt.title("每天题目统计")
+    plt.savefig("../test.png")
+
 
 if __name__ == "__main__":
 
@@ -172,6 +189,6 @@ if __name__ == "__main__":
     # ToDo :
     # 1.抽出一个flag函数，来标记每天完成的oj
     # 2.抽出一个update函数，用来更新quesion数据库
-#    update_leetcode_problems()
+#   update_leetcode_problems()
     record_daily_work()
     generate_readme()
