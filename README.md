@@ -46,3 +46,18 @@
 
 
 ----------------
+### 2018-02-03 完成了:
+
+| ID | Title | Difficulty |  Python Solution |
+|:---:|:---:|:---:|:---:|
+|46|[Permutations](https://leetcode.com/problems/permutations/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/046.%20Permutations/ans.py)|
+|399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/399.%20Evaluate%20Division/ans.py)|
+|406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/406.%20Queue%20Reconstruction%20by%20Height/ans.py)|
+|671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/description/) |Easy|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree/ans.py)|
+|746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/) |Easy|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/746.%20Min%20Cost%20Climbing%20Stairs/ans.py)|
+
+----------------
+### 2018-02-04 未刷leetcode
+
+
+----------------
