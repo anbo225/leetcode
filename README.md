@@ -57,7 +57,24 @@
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/) |Easy|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/746.%20Min%20Cost%20Climbing%20Stairs/ans.py)|
 
 ----------------
-### 2018-02-04 未刷leetcode
+### 2018-02-04 完成了:
 
+| ID | Title | Difficulty |  Python Solution |
+|:---:|:---:|:---:|:---:|
+|698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/ans.py)|
+|712|[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/712.%20Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings/ans.py)|
+|714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee/ans.py)|
+|718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/718.%20Maximum%20Length%20of%20Repeated%20Subarray/ans.py)|
+|740|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/740.%20Delete%20and%20Earn/ans.py)|
+
+----------------
+### 2018-02-08 完成了:
+
+| ID | Title | Difficulty |  Python Solution |
+|:---:|:---:|:---:|:---:|
+|91|[Decode Ways](https://leetcode.com/problems/decode-ways/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/091.%20Decode%20Ways/ans.py)|
+|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/300.%20Longest%20Increasing%20Subsequence/ans.py)|
+|467|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/467.%20Unique%20Substrings%20in%20Wraparound%20String/ans.py)|
+|673|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/description/) |Medium|[Python](https://github.com/anbo225/leetcode/blob/master/leetcode-algorithms/673.%20Number%20of%20Longest%20Increasing%20Subsequence/ans.py)|
 
 ----------------
